@@ -60,7 +60,7 @@ class HouseCrudController extends CrudController
                 'default'   => 2,// on create&update, do you need to add/delete pivot table entries?
             ],
             [
-                'label' => "Image",
+                'label' => "House Image",
                 'name' => "image",
                 'type' => 'image',
                 'crop' => true, // set to true to allow cropping, false to disable
