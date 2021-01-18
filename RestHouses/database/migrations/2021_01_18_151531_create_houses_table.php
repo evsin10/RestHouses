@@ -19,6 +19,7 @@ class CreateHousesTable extends Migration
             $table->longText('description');
             $table->integer('roomcount');
             $table->integer('bedcount');
+            $table->integer('location_id');
             $table->timestamps();
         });
     }

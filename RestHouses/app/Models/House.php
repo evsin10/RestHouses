@@ -34,7 +34,10 @@ class House extends Model
     | RELATIONS
     |--------------------------------------------------------------------------
     */
-
+    public function location()
+    {
+        return $this->belongsTo(Location::class);
+    }
     /*
     |--------------------------------------------------------------------------
     | SCOPES

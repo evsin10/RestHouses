@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2b51d248-1cd2-4c3d-a620-8349e645557f" name="Default Changelist" comment="" />
+    <list default="true" id="2b51d248-1cd2-4c3d-a620-8349e645557f" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Admin/HouseCrudController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Admin/HouseCrudController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/House.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/House.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/Location.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/Location.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2021_01_18_151531_create_houses_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2021_01_18_151531_create_houses_table.php" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -164,7 +170,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1610981275425</updated>
-      <workItem from="1610981276667" duration="2228000" />
+      <workItem from="1610981276667" duration="4351000" />
     </task>
     <servers />
   </component>
