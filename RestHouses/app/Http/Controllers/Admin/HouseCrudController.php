@@ -49,8 +49,17 @@ class HouseCrudController extends CrudController
                 'model'     => "App\Models\Location", // foreign key model
                 'attribute' => 'name', // foreign key attribute that is shown to user
                 'default'   => 2,// on create&update, do you need to add/delete pivot table entries?
+            ],
+            [    // Select = 1-n relationship
+                'label'     => "Type",
+                'type'      => 'select',
+                'name'      => 'type_id',//The foreign key column.
+                'entity'    => 'type', // the method that defines the relationship in your Model
+                'model'     => "App\Models\Type", // foreign key model
+                'attribute' => 'name', // foreign key attribute that is shown to user
+                'default'   => 2,// on create&update, do you need to add/delete pivot table entries?
             ]
-        ];
+            ];
     }
 
     /**

@@ -34,7 +34,10 @@ class Type extends Model
     | RELATIONS
     |--------------------------------------------------------------------------
     */
-
+    public function houses()
+    {
+        return $this->hasMany(House::class);
+    }
     /*
     |--------------------------------------------------------------------------
     | SCOPES
