@@ -58,6 +58,13 @@ class HouseCrudController extends CrudController
                 'model'     => "App\Models\Type", // foreign key model
                 'attribute' => 'name', // foreign key attribute that is shown to user
                 'default'   => 2,// on create&update, do you need to add/delete pivot table entries?
+            ],
+            [
+                'label' => "Image",
+                'name' => "image",
+                'type' => 'image',
+                'crop' => true, // set to true to allow cropping, false to disable
+                'aspect_ratio' => 0, // omit or set to 0 to allow any aspect ratio
             ]
             ];
     }
