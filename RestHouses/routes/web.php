@@ -2,6 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\indexController;
+use App\User;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -14,4 +15,5 @@ use App\Http\Controllers\indexController;
 */
 
 Route::get('/', [IndexController::class, 'index' ]);
+
 

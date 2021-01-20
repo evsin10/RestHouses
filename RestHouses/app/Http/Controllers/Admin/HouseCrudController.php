@@ -29,7 +29,7 @@ class HouseCrudController extends CrudController
             [
                 'name' => 'description',
                 'label' => 'Description',
-                'type' => ($show ? "textarea": 'ckeditor'),
+                'type' => 'text',
             ],
             [
                 'name' => 'roomcount',

@@ -3,6 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="2b51d248-1cd2-4c3d-a620-8349e645557f" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Admin/HouseCrudController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Admin/HouseCrudController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/IndexController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/IndexController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Requests/TypeRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Requests/TypeRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/index/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/index/index.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -176,7 +180,8 @@
       <option name="presentableId" value="Default" />
       <updated>1610981275425</updated>
       <workItem from="1610981276667" duration="11715000" />
-      <workItem from="1611071031323" duration="5408000" />
+      <workItem from="1611071031323" duration="13154000" />
+      <workItem from="1611147286084" duration="13644000" />
     </task>
     <servers />
   </component>
@@ -184,10 +189,10 @@
     <option name="version" value="3" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="506" y="214" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1611074378152">
+    <state x="506" y="214" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1611079165810">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="506" y="214" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.824@0.0.1536.824" timestamp="1611074378152" />
+    <state x="506" y="214" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.824@0.0.1536.824" timestamp="1611079165810" />
     <state x="93" y="93" width="1350" height="638" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog" timestamp="1610984007516">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
