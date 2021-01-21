@@ -15,5 +15,5 @@ use App\User;
 */
 
 Route::get('/', [IndexController::class, 'index' ]);
-
+Route::get('/search', [IndexController::class, 'search']);
 

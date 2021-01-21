@@ -1,9 +1,11 @@
 @extends('layouts.app')
-
 @section('content')
+
+    <br>
     <div class="inner">
         <div class="content">
             <header>
+                <h1>Results :</h1>
                 <form action="/search" method="get">
                     <div>
                         <input type="text" id="searchTextInput"  name="searchTextInput" style="float: right" />
@@ -14,8 +16,6 @@
                     </div>
                 </form>
                 <br>
-                <h2>{{$title}}</h2>
-
             </header>
             @foreach($houses as $house)
                 <h4><strong>Name of House: {{$house->name}}</strong></h4> <br>
@@ -26,9 +26,6 @@
                 <h4><strong>Description: <p>{{$house->description}}</p></strong></h4>
                 <img src="{{$house->image}}" width="300" height="300" alt="no image"> <hr><br> <br>
             @endforeach
-            {!! $title !!}
         </div>
     </div>
 @endsection
-
-
